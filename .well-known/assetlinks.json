@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.wowprimeapp.app",
+    "sha256_cert_fingerprints":
+    ["63:AC:E1:07:26:8B:3B:4F:61:74:0C:63:7D:93:5D:A1:99:0C:AF:49:8D:7B:7E:54:E4:95:55:14:BD:4C:5E:D8"]
+  }
+}]
