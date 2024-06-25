@@ -1,258 +1,251 @@
-<!-- 
-參考：	https://mdbootstrap.com/docs/jquery/components/buttons-social/
-		https://pjchender.blogspot.com/2015/04/bootstraptabsnavigation-bar.html
--->
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title> 黃俊維 | HUANG JYUN WEI </title>
-	
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>June - enjoy coding life</title>
+        <!-- Bootstrap core -->
+        <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap Icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- Timelines plugin CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/tutorials/timelines/timeline-1/assets/css/timeline-1.css">
+        <!-- SimpleLightbox plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#page-top">June</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skill">Skill</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container px-4 px-lg-5 h-100">
+                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-8 align-self-end">
+                        <h1 class="text-white font-weight-bold">June | Coding 我的生活</h1>
+                        <hr class="divider" />
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <p class="text-white-75 mb-5">我叫 June，畢業於台中科大資工系，我是一個樂愛技術的人，喜歡看見畫面正確呈現後的成就感，也喜歡在數據中探索不知道的轉換知識，更喜歡與別人討論程式邏輯與寫程式的技巧</p>
+                        <a class="btn btn-primary btn-xl" href="#about">了解更多</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="page-section bg-primary" id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-white mt-0">專業技能</h2>
+                        <hr class="divider divider-light" />
+                        
+                        <div class="text-start">
+                            <h4 class="text-white mt-0">關於我</h4>
+                            <p class="text-white-75 mb-4">我是黃俊維(June)，畢業於國立臺中科技大學資訊工程系，相信自己對於程式沒有任何天份，但是支持我繼續寫程式的動力來自於對技術的熱忱，一步一步探索，對於未知的知識挑戰，而這些滿滿的經驗在與同事或朋友換來更大的收穫，期望未來能在這個世界與高手們認識。</p>
 
-	<!-- Bootstrap core CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
- 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
-  
-	<!-- 自己寫的 css -->
-	<link href="assets/css/main.css" rel="stylesheet">
-</head>
+                            <h4 class="text-white mt-0">工作態度</h4>
+                            <p class="text-white-75 mb-4">在個性上會認為只要跟工作有關就不能鬆懈的態度去對待，秉持自己是一塊海綿，對於任何一次的機會將會吸取不少經驗的心態去挑戰；在專案上會希望能夠用最完美的呈現給公司想要的東西，但呈現的東西又不失安全與效能的維護性</p>
 
-<body>
+                            <h4 class="text-white mt-0">相信組隊能打敗魔王</h4>
+                            <p class="text-white-75 mb-4">相信著自己在思考雖然可解決問題但如果想的太多碰上死胡同了，就需要別人的經驗與視角。在大學學習常遇到不少的坑，能將這些坑用料想不到的方式填補是身邊的朋友、學長們的幫助</p>
 
-<!-- navbar 設定 -->
-<div id="navbar-main">
-	<nav class="navbar navbar-inverse navbar-fixed-top">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle navbar-toggler-right" data-toggle="collapse" data-target=".navbar-collapse">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#home">Home Page</a>
-			</div>
-			<div class="collapse navbar-collapse">
-				<ul class="nav navbar-nav">
-					<li><a href="#home">Home</a></li>
-					<li><a href="#self">自傳</a></li>
-					<li><a href="#ios">IOS</a></li>
-					<li><a href="#web"> Web</a></li>
-					<li><a href="#otherTime"> Other Time</a></li>
-					<li><a href="#blog"> Blog</a></li>
-					<li><a href="#contact"> Contact</a></li>
-				</ul>	
-			</div>
-		</div>
-	</nav>	
-</div>
+                            <h4 class="text-white mt-0">對未來的規劃</h4>
+                            <p class="text-white-75 mb-4">對於自己英文意識到實力不足，會以檢定來肯定自己的能力，在未來能夠和國際無論是哪個國家的大神共同討論問題以及能夠用自己所學的知識解決生活上認為的不便之處。</p>
 
-<!-- ==== 這個在 main.css 裡設定 ==== -->
-<div id="home" name="home">
-	<div id="headerwrap">
-		<header>
-			<h1>黃俊維</h1>
-			<p>一時寫code一時爽，一直寫code一直爽</p>
-		</header>
-	</div>
-</div>
+                        </div>
+                        
+                        <a class="btn btn-light btn-xl" href="#skill">技能樹!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Skill-->
+        <section class="page-section" id="skill">
+            <div class="container px-4 px-lg-5">
+                <h2 class="text-center mt-0">技能樹</h2>
+                <hr class="divider" />
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi-apple fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">iOS</h3>
+                            <p class="text-muted mb-0">從 Obj-C 至現在 SwiftUI 都有過專案經驗，以下為各語言 Demo</p>
+                            <div><a href="https://github.com/Project112224/Swift_UI_Demo" target="_blank">SwiftUI</a></div>
+                            <div><a href="#">Swift</a></div>
+                            <div><a href="#">Obj-C</a></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi-laptop fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Flutter</h3>
+                            <p class="text-muted mb-0">最熟悉的跨平台語言，以下為 Demo</p>
+                            <div><a href="#">Flutter</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Experience-->
+        <div id="experience">
+            <div class="container-fluid p-0">
+                <div class="row g-0 justify-content-center">
+                    <div class="col-10 col-md-8 col-xl-6 text-start">
+                        <section class="bsb-timeline-1 py-5 py-xl-8">
+                            <ul class="timeline">
+                                <li class="timeline-item">
+                                    <div class="timeline-body">
+                                        <div class="timeline-content">
+                                            <div class="card border-0">
+                                                <div class="card-body p-0">
+                                                    <h5 class="card-subtitle text-secondary mb-1">2019</h5>
+                                                    <h2 class="card-title mb-3">Digifly</h2>
+                                                    <p class="card-text m-0">維護或開發新專案</p>
+                                                    <ul>
+                                                        <li><a href="https://download.cnet.com/HIFIMAN/3000-2141_4-78279239.html" target="_blank">hifiman</a></li>
+                                                        <li><a href="https://apps.apple.com/tw/app/%E4%B9%9D%E9%B4%BB%E7%AE%A1%E7%90%86/id1512072236" target="_blank">九鴻集團</a></li>
+                                                    </ul>
+                                                    <br>
+                                                    <p class="card-text m-0">技術相關介紹：Objective-C、Swift、MVC</p>
+                                                    <br>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="timeline">
+                                <li class="timeline-item">
+                                    <div class="timeline-body">
+                                        <div class="timeline-content">
+                                            <div class="card border-0">
+                                                <div class="card-body p-0">
+                                                    <h5 class="card-subtitle text-secondary mb-1">2021</h5>
+                                                    <h2 class="card-title mb-3">MeterSquare</h2>
+                                                    <p class="card-text m-0">維護 IOS(swift) 專案</p>
+                                                    <ul>
+                                                        <li><a href="https://online.citysuper.com.hk/blogs/happenings-2020/all-new-city-super-member-app" target="_blank">CitySuper</a></li>
+                                                    </ul>
+                                                    <br>
+                                                    <p class="card-text m-0">技術相關介紹：Swift、Rx+MVVM 框架</p>
+                                                    <br>
+                                                    <div class="alert alert-info alert-dismissible fade show">
+                                                        <strong>Info:</strong> Firebase 服務
+                                                        <ul>
+                                                            <li>Remote Config</li>
+                                                            <li>Dynamic Links</li>
+                                                            <li>DebugView</li>
+                                                            <li>Crashlytics</li>
+                                                        </ul>
+                                                    </div>
+                                                    <br>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="timeline">
+                                <li class="timeline-item">
+                                    <div class="timeline-body">
+                                        <div class="timeline-content">
+                                            <div class="card border-0">
+                                                <div class="card-body p-0">
+                                                    <h5 class="card-subtitle text-secondary mb-1">2022</h5>
+                                                    <h2 class="card-title mb-3">TPIsoftware</h2>
+                                                    <p class="card-text m-0">維護 IOS(swift)、Flutter 專案</p>
+                                                    <ul>
+                                                        <li><a href="https://apps.apple.com/tw/app/%E5%9C%8B%E6%B3%B0i%E5%81%A5%E5%BA%B7/id1579485616" target="_blank">國泰 i 健康</a></li>
+                                                        <li><a href="https://play.google.com/store/apps/details?id=com.mbanking.cubc&hl=zh_TW" target="_blank">CUBC mBanking</a></li>
+                                                        <li><a href="https://play.google.com/store/apps/details?id=com.wowprimeapp.app&hl=zh_TW" target="_blank">王品瘋美食</a></li>
+                                                    </ul>
+                                                    <br>
+                                                    <p class="card-text m-0">技術相關介紹：Swift、SwiftUI、Rx+MVVM 框架、Flutter、Flutter Web、Rx+Bloc 框架、riverpod 框架、getx 框架</p>
+                                                    <br>
+                                                    <div class="alert alert-info alert-dismissible fade show">
+                                                        <strong>Info:</strong> CICD
+                                                        <ul>
+                                                            <li>Jenkins</li>
+                                                            <li>Github Action</li>
+                                                            <li>GitLab pipeline</li>
+                                                            <li>fastlane</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact-->
+        <div class="border-top">
+            <section class="page-section" id="contact">
+                <div class="container px-4 px-lg-5">
+                    <div class="row gx-4 gx-lg-5 justify-content-center">
+                        <div class="col-lg-8 col-xl-6 text-center">
+                            <h2 class="mt-0">Let's Get In Touch!</h2>
+                            <hr class="divider" />
+                            <!-- <p class="text-muted mb-5">Ready to start your next project with us? Send us a messages and we will get back to you as soon as possible!</p> -->
+                        </div>
+                    </div>
+                    <div class="row gx-4 gx-lg-5 justify-content-center">
+                        <div class="col-lg-4 text-center mb-5 mb-lg-0">
+                            <i class="bi-phone fs-2 mb-3 text-muted"></i>
+                            <div>+(886) 966733109</div>
+                        </div>
+                        <div class="col-lg-4 text-center mb-5 mb-lg-0">
+                            <i class="bi-envelope fs-2 mb-3 text-muted"></i>
+                            <div>asd79067@gmail.com</div>
+                        </div>
+                            
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <!-- Footer-->
+        <footer class="bg-light py-5">
+            <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2024 - June</div></div>
+        </footer>
 
-<!-- ==== 自傳部分 -->
-<div class="container section-divider bg-check" id="self" name="self">
-	<br>
-	<h1>自傳</h1>
-	<hr>
-	<p>我是黃俊維，畢業於國立臺中科技大學資訊工程系，在高中時初次接觸到的程式是VB6.0，雖然當時是很簡單的程式碼，出來的也是九九乘法之類的邏輯，但是意外的迷上了程式，之後上大學後碰到Web後就更加喜歡了，在課堂中也因為如此所以對於程式設計方面也比其他人了解的快，也時常和同學或學長們互相討論與研究</p>
-	<h3>工作經驗</h3>
-	<p>因為想要知道外面的高度，因此跟在老師身邊寫了幾個app(IOS)，其中有swift寫的"保母app"、"前鏡頭錄製程式"以及將學長寫好的腦波機app由Objc重構成swift等等，在objc部份則是維護app以及上傳影片而已了</p>
-	<p>四年級在系辦工讀，因此了解使用Linux與系統(apache、ssh、派送...)層面的知識以及維護系網的部分</p>
-	<h3>職涯規劃</h3>
-	<p>在職場上一到兩年後打算讀研究所，技術面希望能狗把IOT全部學起來，包含IOS、Web、Android、shell、嵌入式等等，在語言方面會想要有第二語言來加強自己的搜尋能力，因此在未來會挑戰日文的N2</p>
-</div>
 
-<!-- ==== IOS ==== -->
-<div  name="ios" id="ios">
-	<div id="greywrap">
-		<div class="row">
-			<div class="col-lg-12 callout">
-				<span class="icon icon-stack"></span>
-				<h1>IOS</h1>
-				<br>
-				<h2>Swift4 / Objective-C</h2>
-				<h3>原生套件</h3>
-				<p>AVFoundation<br>
-				   ARKit<br>
-				   CoreBluetooth<br>
-				   CoreLocation<br>
-				   CoreImage<br>
-				   SQLite<br>
-				   URLSession</p>
-				   
-				<h3>第三方套件</h3>
-				<p>Alamofire<br>
-				   Charts<br>
-				   CVCalendar<br>
-				   CryptoSwift<br> <!-- 加密用 -->
-				   Fooze<br>
-				   Firebase<br>
-				   NVActivityIndicatorView<br>
-				   PKHUD<br>
-				   Realm<br>
-				   SwiftyJSON<br>
-				   SnapKit<br>
-				   Twitter API</p>
-			   
-			</div>
-		</div>
-	</div>
-</div>
-
-<!-- ==== Web ==== -->
-<div class="container" id="web" name="web">
-	<br>
-	<div class="row white">
-		<h1 class="col-lg-12 centered">Web</h1>
-		<hr>
-		<div class="col-lg-12 centered">
-			<h3><span style="color: blue;">碰過的軟體</span></h3>
-			<h4>伺服器</h4>
-			<p>Apache、IIS、Nginx</p>
-			<h4>資料庫</h4>
-			<p>MySQL、MSSQL、MongoDB、Firebase</p>
-			<h4>環境部屬</h4>
-			<p>Docker</p>
-			<br>
-			<h3><span style="color: blue;">開發語言</span></h3>
-			<p>HTML、php、JavaScript、C#</p>
-			<br>
-			<h3><span style="color: blue;">碰過框架</span></h3>
-			<h4>前端</h4>
-			<p>Vue.js</p>
-			<h4>後端</h4>
-			<p>Note.js、Laravel</p>
-
-			<h3><span style="color: blue;">API</span></h3>
-			<p>Google API</p>
-			<p>Twitter API</p>
-			<p>Line API</p>
-		</div>
-	</div>
-</div>
-
-<!-- ==== other time ==== -->
-<div class="container" id="otherTime" name="otherTime">
-	<div class="row bg-check" >
-		<br>
-		<br>
-		<h1 class="centered">閒暇時間</h1>
-		<hr>
-		<br>
-		<div class="col-lg-offset-2 col-lg-8">
-			<p>有空會玩玩Photoshop CC來改圖，或是玩玩Live2D或Unity來知道現在遊戲的架構與模型製作</p>
-			<p>或是會看看其他人的技術分享寫寫腳本或玩玩新語言或套件，例如: </p>
-			<a href="https://hackmd.io/6v1gkngDSj2ykUoMDH6D7Q">版本控管的 Github</a><br>
-			<a href="https://hackmd.io/B2tnbXlSQYG1wvQdhypmMQ">OpenGL</a><br>
-			<a href="https://hackmd.io/fZt0u4NsTy2N_LI7qOyU1w">文字介面的瀏覽器w3m</a><br>
-			<a href="https://hackmd.io/losnml2pQ5Oa8l0viTqGtw">生成式模型-DeepQA</a><br>
-			<a href="https://hackmd.io/rp36lApLT8SEIrGLZWR2_w">ngrok</a><br>
-			<a href="https://hackmd.io/wrPe0RhCRuOAG7kxY23C5Q">自動產生規格書-Doxygen</a><br>
-			<a href="http://project112224.blog.fc2.com/blog-entry-13.html">Raspberry Pi3做成AP</a><br>
-			<a href="https://hackmd.io/T1m-J-72RWO2My9OWcZBoA">gdb</a><br>
-			<a href="https://hackmd.io/AFBfJ-JDTUaWjw_ty4MM3Q">ffmpeg</a><br>
-			<a href="https://hackmd.io/Kcjqaj5aQg20h99aDHMBlQ">M3U8概念</a><br>
-			<a href="https://hackmd.io/9bGc6V4ISx6qh000n2umuw">Bat檔</a><br>
-			<a href="https://hackmd.io/JGZOcvCASwq9zw_hK7UsOw">Cobol</a><br>
-			<a href="http://project112224.blog.fc2.com/blog-entry-42.html">Python 爬蟲</a><br>
-			<a href="http://project112224.blog.fc2.com/blog-entry-44.html">D語言</a><br>
-		</div>
-	</div>
-</div>
-
-<!-- ==== other page ==== -->
-<div class="container" id="blog" name="blog">
-	<br>
-	<br>
-	<div class="row">
-		<h1 class="centered">其他地方</h1>
-		<hr>
-		<br>
-		<br>
-	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-4">
-				<div class="single-member">
-					<div class="thumb relative" style="background: url(assets/img/portfolio/folio01.png);">
-						<div class="overlay overlay-member">
-							<div class="social d-flex align-items-center justify-content-center">
-								<div class="text-center font-over-set">
-									<p>Github</p>
-									<a target="_blank" href="https://github.com/Project112224?tab=repositories">Go</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div><!-- github -->
-			</div>
-			<div class="col-md-4">
-				<div class="single-member">
-					<div class="thumb relative" style="background: url(assets/img/portfolio/folio02.jpg);">
-						<div class="overlay overlay-member">
-							<div class="social d-flex align-items-center justify-content-center">
-								<div class="text-center font-over-set">
-									<p>Blog</p>
-									<a target="_blank" href="http://project112224.blog.fc2.com/">Go</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div><!-- blog -->
-			</div>
-			<div class="col-md-4">
-				<div class="single-member">
-					<div class="thumb relative" style="background: url(assets/img/portfolio/folio03.png);">
-						<div class="overlay overlay-member">
-							<div class="social d-flex align-items-center justify-content-center">
-								<div class="text-center font-over-set">
-									<p>FaceBook</p>
-									<a target="_blank" href="https://www.facebook.com/profile.php?id=100004378774487">Go</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div><!-- faceBook -->
-			</div>
-		</div>
-	</div>
-</div>
-
-<!-- ======== food area ======== -->
-<br>
-<div class="food-setting">
-	<div class="container" id="contact" name="contact">
-		<div class="row">
-		<br>
-			<h1 class="centered">聯絡我</h1>
-			<hr>
-			<br>
-			<br>
-			<div class="col-lg-4">
-				<p>
-					<span class="far fa-envelope" aria-hidden="true"></span> <a href="#"> asd79067@gmail.com</a> <br/>
-					<span class="fab fa-twitter"></span> <a href="#"> @project112224 </a> <br/>
-					<span class="fab fa-facebook"></span> <a href="#"> 高杉君 </a> <br/>
-				</p>
-			</div>
-		</div>
-	</div>
-</div>
-
-<!-- Bootstrap core JavaScript
-================================================== -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-</body>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- SimpleLightbox plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
 </html>
